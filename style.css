@@ -1,0 +1,18 @@
+.top{
+	background-color: #33CAE9;
+}
+.container{
+	width: 100%;
+}
+.button{
+	background-color: #F16EBB ;
+
+}
+.bottom{
+	background-color: #33CAE9;
+
+}
+.images:hover{
+	cursor: grab/pointer;
+}
+

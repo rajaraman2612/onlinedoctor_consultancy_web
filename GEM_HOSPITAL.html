@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+		<head id ="home">
+			<link rel="stylesheet" href="style.css">
+			  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<title>ONLINE DOCTOR CONSULTANCY</title>
+	<link rel="icon" href="https://www.flaticon.com/svg/vstatic/svg/607/607414.svg?token=exp=1617808407~hmac=3cc8cf7f095605e4bd7f64445a467b7b">
+</head>
+<body>
+	<div class="top">
+		<center><h1> FIX YOUR APPOINMENT</h1></center><br>
+    <br>
+    <br>
+	</div>
+	<div class="container">
+	<form class="form " method="get">
+		<div class="formgroup">
+			<label for="">NAME :</label>
+			<input type="text" name="" class="form-control">
+		</div>
+    <div class="formgroup">
+      <label for="">HOSPITAL NAME</label>
+      <input type="text" name="" class="form-control" value="GEM HOSPITAL ">
+    </div>
+    <div class="formgroup">
+      <label for="">PROBLEM </label>
+      <input type="text" name="" class="form-control">
+    </div>
+    <br>
+
+		 <div class="row">
+          <label class="form-group">CONSULTING DOCTOR  &nbsp   &nbsp   </label>
+          <div class="form-check-inline form-group">
+            <label class="form-check-label">
+              <input type="radio" name="optr" value="" class="form-check-input">   &nbspDR. A &nbsp
+            </label>
+          </div>
+          <div class="form-check-inline form-group">
+            <label class="form-check-label">
+              <input type="radio" name="optr" value="" class="form-check-input"> DR.B &nbsp  &nbsp 
+            </label>
+          </div>
+          <label class="form-check-label">
+              <input type="radio" name="optr" value="" class="form-check-input">DR.C  &nbsp  &nbsp   
+            </label>
+          </div>
+          <div class="formgroup">
+      <label for="">DATE</label>
+      <input type="date" name="" class="form-control">
+    </div>
+    <div class="formgroup">
+      <label for="">TIME</label>
+      <input type="time" name="" class="form-control">
+    </div>
+    <br>
+    <br>
+    <h5> * video should taken from the patient only</h5>
+    <form action="upload.php" method="post" enctype="multipart/form-data" required> Select  VIDEO to upload:
+<button class="btn btn-danger"><input type="file" name="fileToUpload" id="fileToUpload" required=""></button>
+<button type="button" class="btn btn-success" class="button" onClick="" >UPLOAD</button><br>
+<br><br><br>
+<form action="upload.php" method="post" enctype="multipart/form-data" required> Select  REPORT to upload:
+<button class="btn btn-danger"><input type="file" name="fileToUpload" id="fileToUpload" required=""></button>
+<button type="button" class="btn btn-success" class="button" onClick="" >UPLOAD</button>
+<div class="formgroup">
+      <label for="">EMAIL</label>
+      <input type="text" name="" class="form-control">
+    </div>
+   <label for="">PHONE NUMBER</label>
+      <input type="text" name="" class="form-control"><br><br>
+
+    </div>
+    <center><br><br><button type="button" class="btn btn-success" class="button" onClick="parent.location='payment.html'" >GATEWAY FOR PAYMENT</button>
+   <br><br>
+
+
+
+</form>
+<div class="bottom">
+  <br><br><br>
+</div>
+</center>
+</form>
+</form>
+</form>
+</div>
+</body>
+</html>
+

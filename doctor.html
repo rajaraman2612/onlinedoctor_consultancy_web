@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+		<head id ="home">
+			<link rel="stylesheet" href="style.css">
+			  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<title>ONLINE DOCTOR CONSULTANCY</title>
+	<link rel="icon" href="https://www.flaticon.com/svg/vstatic/svg/607/607414.svg?token=exp=1617808407~hmac=3cc8cf7f095605e4bd7f64445a467b7b">
+</head>
+<body>
+	<div class="top">
+<button class="btn btn-success" onclick="getLocation()">Get Location</button>
+<p id="demo"></p>
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+}
+
+</script>
+
+
+<br>
+<center>
+	<h1>SELECT YOUR HOSPITAL</h1><br><br>
+
+</center>
+</div><br><br>&nbsp &nbsp
+<div class="images">
+<figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9Cvyg9_91j5AD8kRRRkySLZyFnMxU-JwsDrqFHcn4qGJhLZw9XpqkxJM-0gqKv53F5M&usqp=CAU" class="img-thumbnail"
+onclick="parent.location='lotus.html'" width="15%"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <img src="https://static.toiimg.com/img/81268642/Master.jpg"  width="15%" class="img-thumbnail" onclick="parent.location='GEM_HOSPITAL.html'"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <img src="http://1.bp.blogspot.com/-MGSq5vIR_ss/Tkj9tGOcLaI/AAAAAAAAAkQ/AN01soSnBnE/s1600/kmch+logo.jpg"  width="15%" class="img-thumbnail" onclick="parent.location='kmch.html'" > &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <img src="https://cdn.slidesharecdn.com/ss_thumbnails/globalhospitals-companypresentation-130502025519-phpapp01-thumbnail-4.jpg?cb=1367463370"  width="20%" class="img-thumbnail" onclick="parent.location='global.html'" ><br>
+</div>
+</body>
+</html>
