@@ -21,15 +21,15 @@
 	<form class="form " method="get">
 		<div class="formgroup">
 			<label for="">NAME :</label>
-			<input type="text" name="" class="form-control">
+			<input type="text" name="" class="form-control" id="name1">
 		</div>
     <div class="formgroup">
       <label for="">HOSPITAL NAME</label>
-      <input type="text" name="" class="form-control" value="LOTUS HOSPITAL ">
+      <input type="text" name="" class="form-control" value="LOTUS HOSPITAL  " id="hsptlname">
     </div>
     <div class="formgroup">
       <label for="">PROBLEM </label>
-      <input type="text" name="" class="form-control">
+      <input type="text" name="" class="form-control" id="prblm1">
     </div>
     <br>
 
@@ -37,45 +37,45 @@
           <label class="form-group">CONSULTING DOCTOR  &nbsp   &nbsp   </label>
           <div class="form-check-inline form-group">
             <label class="form-check-label">
-              <input type="radio" name="optr" value="" class="form-check-input">   &nbspDR. A &nbsp
+              <input type="radio" name="optr" value="" class="form-check-input"id="da">   &nbspDR. A &nbsp
             </label>
           </div>
           <div class="form-check-inline form-group">
             <label class="form-check-label">
-              <input type="radio" name="optr" value="" class="form-check-input"> DR.B &nbsp  &nbsp 
+              <input type="radio" name="optr" value="" class="form-check-input" id="db"> DR.B &nbsp  &nbsp 
             </label>
           </div>
           <label class="form-check-label">
-              <input type="radio" name="optr" value="" class="form-check-input">DR.C  &nbsp  &nbsp   
+              <input type="radio" name="optr" value="" class="form-check-input" id="dc">DR.C  &nbsp  &nbsp   
             </label>
           </div>
           <div class="formgroup">
       <label for="">DATE</label>
-      <input type="date" name="" class="form-control">
+      <input type="date" name="" class="form-control" id="date">
     </div>
     <div class="formgroup">
       <label for="">TIME</label>
-      <input type="time" name="" class="form-control">
+      <input type="time" name="" class="form-control id="time"">
     </div>
     <br>
     <br>
     <h5> * video should taken from the patient only</h5>
     <form action="upload.php" method="post" enctype="multipart/form-data" required> Select  VIDEO to upload:
-<button class="btn btn-danger"><input type="file" name="fileToUpload" id="fileToUpload" required=""></button>
+<button class="btn btn-danger"><input type="file" name="fileToUpload" id="fileToUpload1" required=""></button>
 <button type="button" class="btn btn-success" class="button" onClick="" >UPLOAD</button><br>
 <br><br><br>
 <form action="upload.php" method="post" enctype="multipart/form-data" required> Select  REPORT to upload:
-<button class="btn btn-danger"><input type="file" name="fileToUpload" id="fileToUpload" required=""></button>
+<button class="btn btn-danger"><input type="file" name="fileToUpload" id="fileToUpload2" required=""></button>
 <button type="button" class="btn btn-success" class="button" onClick="" >UPLOAD</button>
 <div class="formgroup">
       <label for="">EMAIL</label>
-      <input type="text" name="" class="form-control">
+      <input type="text" name="" class="form-control" id="mail1">
     </div>
    <label for="">PHONE NUMBER</label>
-      <input type="text" name="" class="form-control"><br><br>
+      <input type="text" name="" class="form-control" id="phone1"><br><br>
 
     </div>
-    <center><br><br><button type="button" class="btn btn-success" class="button" onClick="parent.location='payment.html'" >GATEWAY FOR PAYMENT</button>
+    <center><br><br><button type="button" class="btn btn-success" class="button" onClick="parent.location='payment.html'" id="btn2" >GATEWAY FOR PAYMENT</button>
    
 
 
